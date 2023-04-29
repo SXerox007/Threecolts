@@ -18,7 +18,7 @@ Optional: you can run tests with jest:
 go test ./...
 ```
 
-##output
+## output
 ```
 #go test ./... -v
 === RUN   TestCountUniqueUrls
