@@ -19,7 +19,8 @@ go test ./...
 ```
 
 ##output
-go test ./... -v
+```
+#go test ./... -v
 === RUN   TestCountUniqueUrls
     main_test.go:52: TestCountUniqueUrls:
     main_test.go:58: Input: [https://example.com https://example.com/]  Output: 1
@@ -34,3 +35,4 @@ go test ./... -v
 --- PASS: TestCountUniqueUrlsPerTopLevelDomain (0.00s)
 PASS
 ok      setup   0.460s
+```
